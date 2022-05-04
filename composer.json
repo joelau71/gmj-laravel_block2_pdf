@@ -1,0 +1,28 @@
+{
+    "name": "gmj/laravel_block2_pdf",
+    "description": "Laravel Block2 for backend and frontend - need tailwindcss support",
+    "type": "library",
+    "license": "MIT",
+     "authors": [
+        {
+            "name": "Joe Lau",
+            "email": "joe.laucw71@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "barryvdh/laravel-dompdf": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GMJ\\LaravelBlock2Pdf\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GMJ\\LaravelBlock2Pdf\\LaravelBlock2PdfServiceProvider"
+            ]
+        }
+    }
+}
